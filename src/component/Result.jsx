@@ -32,7 +32,9 @@ const Box = (props) => {
         </p>
         <p className="text-xl font-semibold">
           Rating :{" "}
-          <span className="text-orange-700 font-normal">{props.rating}</span>
+          <span className="text-orange-700 font-normal">
+            {props.rating.toFixed(1)}
+          </span>
         </p>
       </div>
     </div>
