@@ -11,7 +11,11 @@ const Result = ({ movies }) => {
       />
     );
   });
-  return <div className="w-full grid md:grid-cols-4 gap-5">{boxes}</div>;
+  return (
+    <div className="w-full grid md:grid-cols-2 lg:grid-cols-4 gap-5 my-4">
+      {boxes}
+    </div>
+  );
 };
 
 export default Result;
